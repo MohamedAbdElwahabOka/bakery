@@ -5,20 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="dark">
+
+    </div>
     <header>
         <div class="nav-bar">
             <div class="logo">
-                <img src="img/bakery-color.png" alt="logo">
+                <img src="img/bakery-light-1.png" alt="logo">
             </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#About">About</a></li>
                     <li><a href="#">OurOffer</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Blog</a></li>
@@ -31,12 +44,47 @@
         <div class="img">
         </div>
         <div class="content">
-            <h1>Best Bakery in Town</h1>
-            <p>Lorem ipsum dolor sit am </p>
+            <p class="top">Welcome to</p>
+            <h1>Family Bakery</h1>
+            <p class="bott">We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area
+            </p>
+            <div class="bot">
+                <a href="" class="a1">Learn More</a>
+                <a href="" class="a2">Contact us</a>
+            </div>
+
+        </div>
+        <div class="scroll-down-animation">
+            <a href="#About">
+                <span class="mouse">
+
+                    <span class="move"></span>
+            </a>
+
+            </span>
         </div>
 
     </section>
 
+    <section class="contentt" id="About">
+        <img src="img/alexandru-stavrica-170390-800x760.jpg" alt="your-image-description" class="image">
+        <div class="text">
+            <h1>Who we are?</h1>
+            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
+                projects big and small from small residential extensions to full house. We are so happy with this theme.
+                Everyday it make our lives better.</p>
+            <ul>
+
+                <li><i class="icon-1"></i> We care about environment.</li>
+                <li><i class="icon-2"></i> We are trusted by hundreds of clients.</li>
+                <li><i class="icon-3"></i> Social media loves us!</li>
+                <li><i class="icon-4"></i> This list is super easy to create.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
