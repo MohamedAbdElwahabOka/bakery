@@ -282,3 +282,234 @@ nav ul li a {
         margin-bottom: 30px;
     }
 }
+
+.s {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding: 50px 0;
+    margin: 50px 0;
+
+
+}
+
+.s img {
+    width: 565.200px;
+    height: 452.150px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.s div {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.s h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-family: "Alegreya";
+
+}
+
+.s p {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+
+@media (max-width: 768px) {
+    .s {
+        flex-direction: column;
+    }
+
+    .s img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .s div {
+        width: 100%;
+        height: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.ss {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    max-width: 80%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    font-family: "Alegreya";
+    font-size: 30px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+
+.container p {
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    /* height: 200px; */
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-family: "Alegreya";
+    margin: 10px 0;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+
+}
+
+.card p {
+    font-weight: 400;
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+.sss {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+
+}
+
+.sss .container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sss .map {
+    width: 50%;
+    height: 500px;
+    /* Add any additional styling for your map here */
+}
+
+.sss .content {
+    width: 50%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sss h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sss p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.sss .icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sss .icons li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sss .icons li i {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .map,
+    .sss .content {
+        width: 100%;
+    }
+
+    .sss .content {
+        padding: 0 20px;
+    }
+}
+
+.map iframe {
+    filter: brightness(80%) grayscale(50%);
+}
